@@ -1,0 +1,91 @@
+body {
+  background-color: #eacfae;
+}
+
+h1 {
+  font-family: 'Bungee Shade', cursive;
+  text-align: center;
+  font-size: 60px;
+}
+
+h4 {
+  font-family: 'Bungee Inline', cursive;
+  text-align: center;
+  font-size 80px;
+}
+
+#notes {
+  display: block;
+  float: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  margin: 8vw;
+  border: 4px solid brown;
+  background-color: white;
+  border-radius: 30px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  padding: 50px;
+  border: 2px brown;
+}
+
+li {
+  font-family: Georgia;
+}
+
+ul ul {
+  list-style-type: circle;
+}
+
+#ingredients,
+#equipment,
+#directions {
+  display: inline-block;
+  float: left;
+  width: 30%;
+  height: auto;
+  margin: 1%;
+  border: 4px solid brown;
+  background-color: white;
+  padding: 40px;
+  padding-bottom: 3vw;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+#ingredients li {
+  font-family: Arial;
+}
+
+#ingredients li span {
+  font-style: italic;
+  color: #999;
+}
+
+#equipment li:nth-child(2) {
+  color: red;
+}
+
+#directions li:nth-child(4) {
+  color: red;
+}
+
+@media (orientation:portrait) {
+  #ingredients,
+  #equipment,
+  #directions {
+    width: 60vh;
+    height: auto;
+  }
+  img {
+    height: 80%;
+    width: 80%;
+  }
+}
