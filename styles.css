@@ -95,7 +95,7 @@ ul ul {
   }
 }
 
-/* CSS for the change in colors after the click event */
+/* CSS for the change click event */
 #title.clicked { 
   color: red; 
 }
